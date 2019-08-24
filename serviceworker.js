@@ -58,15 +58,14 @@ async function cacheFirst(req) {
     let cacheRes = await caches.match(req);
     return cacheRes || fetch(req);
 }
-async function networkFirst(req) {
+/*async function networkFirst(req) {
     const dynamicCache = await caches.open('dynamic');
     try {
         const networkResponse = await fetch(req);
-        if (req.method !== 'POST') dynamicCache.put(req,
-            networkResponse.clone());
+        if (req.method !== 'POST') dynamicCache.put(req, networkResponse.clone());
         return networkResponse;
     } catch (err) {
         const cacheResponse = await caches.match(req);
         return cacheResponse;
     }
-}
+}*/

@@ -48,7 +48,7 @@ self.addEventListener('activate', e => {
     return self.clients.claim();
 });
 // Fetch network cache first asynchronization
-/*self.addEventListener('fetch', e => {
+self.addEventListener('fetch', e => {
     const req = e.request;
     const url = new URL(req.url);
     if (url.origin === location.origin) return e.respondWith(cacheFirst(req));
@@ -57,8 +57,8 @@ else return e.respondWith(networkFirst(req));
 async function cacheFirst(req) {
     let cacheRes = await caches.match(req);
     return cacheRes || fetch(req);
-}*/
-/*async function networkFirst(req) {
+}
+async function networkFirst(req) {
     const dynamicCache = await caches.open('dynamic');
     try {
         const networkResponse = await fetch(req);
@@ -68,4 +68,4 @@ async function cacheFirst(req) {
         const cacheResponse = await caches.match(req);
         return cacheResponse;
     }
-}*/
+}

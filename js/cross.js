@@ -113,24 +113,24 @@ function checkResult(){
     if(winner === 1){
         playWinner();
         crissPoint++;
-        /*setTimeout(function () {
+        setTimeout(function () {
             swal ( "Congratulation! Round Wins" ,  "" ,  "success" ).then(function () {
                 $('.lineCutter').attr('class', 'lineCutter');
                 $('.cross_board_box').html('');
                 winner = 0;
             });
-        }, 500);*/
+        }, 500);
     }
     if(winner === 2){
         playWinner();
         crossPoint++;
-        /*setTimeout(function () {
+        setTimeout(function () {
             swal ( "Congratulation! Cross Wins" ,  "" ,  "success" ).then(function () {
                 $('.lineCutter').attr('class', 'lineCutter');
                 $('.cross_board_box').html('');
                 winner = 0;
             });
-        }, 500);*/
+        }, 500);
     }
 
 

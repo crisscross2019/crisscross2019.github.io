@@ -113,9 +113,16 @@ body{
   0% {
     width: 0;
   }
-
   100% {
     width: 380px;
+  }
+}
+@keyframes leftToRight-sm {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 280px;
   }
 }
 @keyframes leftToRightLong {
@@ -127,6 +134,15 @@ body{
     width:525px;
   }
 }
+@keyframes leftToRightLong-sm {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 387px;
+  }
+}
 @keyframes topToBottom {
   0% {
     height: 0;
@@ -134,6 +150,15 @@ body{
 
   100% {
     height: 380px;
+  }
+}
+@keyframes topToBottom-sm {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 280px;
   }
 }
 
@@ -176,6 +201,12 @@ body{
       -webkit-animation: leftToRight 0.5s normal forwards;
       -moz-animation:    leftToRight 0.5s normal forwards;
       -o-animation:      leftToRight 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        top: 50px;
+        -webkit-animation: leftToRight-sm 0.5s normal forwards;
+        -moz-animation:    leftToRight-sm 0.5s normal forwards;
+        -o-animation:      leftToRight-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_345_bl{
       position: absolute;
@@ -188,6 +219,12 @@ body{
       -webkit-animation: leftToRight 0.5s normal forwards;
       -moz-animation:    leftToRight 0.5s normal forwards;
       -o-animation:      leftToRight 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        top: 145px;
+        -webkit-animation: leftToRight-sm 0.5s normal forwards;
+        -moz-animation:    leftToRight-sm 0.5s normal forwards;
+        -o-animation:      leftToRight-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_678_bl{
       position: absolute;
@@ -200,6 +237,12 @@ body{
       -webkit-animation: leftToRight 0.5s normal forwards;
       -moz-animation:    leftToRight 0.5s normal forwards;
       -o-animation:      leftToRight 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        top: 240px;
+        -webkit-animation: leftToRight-sm 0.5s normal forwards;
+        -moz-animation:    leftToRight-sm 0.5s normal forwards;
+        -o-animation:      leftToRight-sm 0.5s normal forwards;
+      }
     }
 
 
@@ -214,6 +257,12 @@ body{
       -webkit-animation: topToBottom 0.5s normal forwards;
       -moz-animation:    topToBottom 0.5s normal forwards;
       -o-animation:      topToBottom 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 50px;
+        -webkit-animation: topToBottom-sm 0.5s normal forwards;
+        -moz-animation:    topToBottom-sm 0.5s normal forwards;
+        -o-animation:      topToBottom-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_147_bl{
       position: absolute;
@@ -226,6 +275,12 @@ body{
       -webkit-animation: topToBottom 0.5s normal forwards;
       -moz-animation:    topToBottom 0.5s normal forwards;
       -o-animation:      topToBottom 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 145px;
+        -webkit-animation: topToBottom-sm 0.5s normal forwards;
+        -moz-animation:    topToBottom-sm 0.5s normal forwards;
+        -o-animation:      topToBottom-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_258_bl{
       position: absolute;
@@ -238,6 +293,12 @@ body{
       -webkit-animation: topToBottom 0.5s normal forwards;
       -moz-animation:    topToBottom 0.5s normal forwards;
       -o-animation:      topToBottom 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 240px;
+        -webkit-animation: topToBottom-sm 0.5s normal forwards;
+        -moz-animation:    topToBottom-sm 0.5s normal forwards;
+        -o-animation:      topToBottom-sm 0.5s normal forwards;
+      }
     }
 
     .lineCutter_048_bl{
@@ -253,6 +314,13 @@ body{
       -webkit-animation: leftToRightLong 0.5s normal forwards;
       -moz-animation:    leftToRightLong 0.5s normal forwards;
       -o-animation:      leftToRightLong 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 18px;
+        width: 387px;
+        -webkit-animation: leftToRightLong-sm 0.5s normal forwards;
+        -moz-animation:    leftToRightLong-sm 0.5s normal forwards;
+        -o-animation:      leftToRightLong-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_246_bl{
       position: absolute;
@@ -267,6 +335,13 @@ body{
       -webkit-animation: leftToRightLong 0.5s normal forwards;
       -moz-animation:    leftToRightLong 0.5s normal forwards;
       -o-animation:      leftToRightLong 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        right: 18px;
+        width: 387px;
+        -webkit-animation: leftToRightLong-sm 0.5s normal forwards;
+        -moz-animation:    leftToRightLong-sm 0.5s normal forwards;
+        -o-animation:      leftToRightLong-sm 0.5s normal forwards;
+      }
     }
 
     .lineCutter_012_rd{
@@ -280,6 +355,12 @@ body{
       -webkit-animation: leftToRight 0.5s normal forwards;
       -moz-animation:    leftToRight 0.5s normal forwards;
       -o-animation:      leftToRight 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        top: 50px;
+        -webkit-animation: leftToRight-sm 0.5s normal forwards;
+        -moz-animation:    leftToRight-sm 0.5s normal forwards;
+        -o-animation:      leftToRight-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_345_rd{
       position: absolute;
@@ -292,6 +373,12 @@ body{
       -webkit-animation: leftToRight 0.5s normal forwards;
       -moz-animation:    leftToRight 0.5s normal forwards;
       -o-animation:      leftToRight 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        top: 145px;
+        -webkit-animation: leftToRight-sm 0.5s normal forwards;
+        -moz-animation:    leftToRight-sm 0.5s normal forwards;
+        -o-animation:      leftToRight-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_678_rd{
       position: absolute;
@@ -304,8 +391,13 @@ body{
       -webkit-animation: leftToRight 0.5s normal forwards;
       -moz-animation:    leftToRight 0.5s normal forwards;
       -o-animation:      leftToRight 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        top: 240px;
+        -webkit-animation: leftToRight-sm 0.5s normal forwards;
+        -moz-animation:    leftToRight-sm 0.5s normal forwards;
+        -o-animation:      leftToRight-sm 0.5s normal forwards;
+      }
     }
-
 
     .lineCutter_036_rd{
       position: absolute;
@@ -318,6 +410,12 @@ body{
       -webkit-animation: topToBottom 0.5s normal forwards;
       -moz-animation:    topToBottom 0.5s normal forwards;
       -o-animation:      topToBottom 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 50px;
+        -webkit-animation: topToBottom-sm 0.5s normal forwards;
+        -moz-animation:    topToBottom-sm 0.5s normal forwards;
+        -o-animation:      topToBottom-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_147_rd{
       position: absolute;
@@ -330,6 +428,12 @@ body{
       -webkit-animation: topToBottom 0.5s normal forwards;
       -moz-animation:    topToBottom 0.5s normal forwards;
       -o-animation:      topToBottom 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 145px;
+        -webkit-animation: topToBottom-sm 0.5s normal forwards;
+        -moz-animation:    topToBottom-sm 0.5s normal forwards;
+        -o-animation:      topToBottom-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_258_rd{
       position: absolute;
@@ -342,6 +446,12 @@ body{
       -webkit-animation: topToBottom 0.5s normal forwards;
       -moz-animation:    topToBottom 0.5s normal forwards;
       -o-animation:      topToBottom 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 240px;
+        -webkit-animation: topToBottom-sm 0.5s normal forwards;
+        -moz-animation:    topToBottom-sm 0.5s normal forwards;
+        -o-animation:      topToBottom-sm 0.5s normal forwards;
+      }
     }
 
     .lineCutter_048_rd{
@@ -357,6 +467,13 @@ body{
       -webkit-animation: leftToRightLong 0.5s normal forwards;
       -moz-animation:    leftToRightLong 0.5s normal forwards;
       -o-animation:      leftToRightLong 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        left: 18px;
+        width: 387px;
+        -webkit-animation: leftToRightLong-sm 0.5s normal forwards;
+        -moz-animation:    leftToRightLong-sm 0.5s normal forwards;
+        -o-animation:      leftToRightLong-sm 0.5s normal forwards;
+      }
     }
     .lineCutter_246_rd{
       position: absolute;
@@ -371,6 +488,13 @@ body{
       -webkit-animation: leftToRightLong 0.5s normal forwards;
       -moz-animation:    leftToRightLong 0.5s normal forwards;
       -o-animation:      leftToRightLong 0.5s normal forwards;
+      @media only screen and (max-width: 640px) {
+        right: 18px;
+        width: 387px;
+        -webkit-animation: leftToRightLong-sm 0.5s normal forwards;
+        -moz-animation:    leftToRightLong-sm 0.5s normal forwards;
+        -o-animation:      leftToRightLong-sm 0.5s normal forwards;
+      }
     }
 
     .cross_board_box{
@@ -400,6 +524,9 @@ body{
         animation-duration: 0.75s;
         -webkit-animation-name: bounceIn;
         animation-name: bounceIn;
+        @media only screen and (max-width: 640px) {
+          margin: 4px auto;
+        }
       }
       .cross{
         background-image: url("../img/cross.png");
@@ -417,6 +544,9 @@ body{
         animation-duration: 0.75s;
         -webkit-animation-name: bounceIn;
         animation-name: bounceIn;
+        @media only screen and (max-width: 640px) {
+          margin: 4px auto;
+        }
       }
       &.cross_board_box_1{
         border-top: 3px solid transparent;

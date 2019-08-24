@@ -84,10 +84,10 @@ function checkResult(){
     }
     else if(result[2] > 0 && result[2] === result[5] && result[2] === result[8]){
         if(result[2] === 1){
-            $('.lineCutter').addClass('lineCutter_058_bl');
+            $('.lineCutter').addClass('lineCutter_258_bl');
             winner = 1;
         } else {
-            $('.lineCutter').addClass('lineCutter_058_rd');
+            $('.lineCutter').addClass('lineCutter_258_rd');
             winner = 2;
         }
     }
@@ -102,10 +102,10 @@ function checkResult(){
     }
     else if(result[6] > 0 && result[6] === result[7] && result[6] === result[8]){
         if(result[6] === 1){
-            $('.lineCutter').addClass('lineCutter_578_bl');
+            $('.lineCutter').addClass('lineCutter_678_bl');
             winner = 1;
         } else {
-            $('.lineCutter').addClass('lineCutter_578_rd');
+            $('.lineCutter').addClass('lineCutter_678_rd');
             winner = 2;
         }
     }
@@ -113,24 +113,24 @@ function checkResult(){
     if(winner === 1){
         playWinner();
         crissPoint++;
-        setTimeout(function () {
+        /*setTimeout(function () {
             swal ( "Congratulation! Round Wins" ,  "" ,  "success" ).then(function () {
                 $('.lineCutter').attr('class', 'lineCutter');
                 $('.cross_board_box').html('');
                 winner = 0;
             });
-        }, 500);
+        }, 500);*/
     }
     if(winner === 2){
         playWinner();
         crossPoint++;
-        setTimeout(function () {
+        /*setTimeout(function () {
             swal ( "Congratulation! Cross Wins" ,  "" ,  "success" ).then(function () {
                 $('.lineCutter').attr('class', 'lineCutter');
                 $('.cross_board_box').html('');
                 winner = 0;
             });
-        }, 500);
+        }, 500);*/
     }
 
 

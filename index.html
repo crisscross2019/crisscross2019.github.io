@@ -62,4 +62,23 @@
 
 <script type="application/javascript" src="js/jquery.min.js"></script>
 <script type="application/javascript" src="js/cross.min.js"></script>
+<script type="application/javascript" >
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('https://crisscross2019.github.io/serviceworker.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    window.addEventListener('offline', () => {
+        console.log('Ops! We are offline');
+    });
+    window.addEventListener('online', () => {
+        console.log('Back Online');
+    });
+</script>
 </html>

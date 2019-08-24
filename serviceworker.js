@@ -18,6 +18,12 @@ var files = [
     './audio/click.wav',
     './audio/winner.wav',
 ];
+evt.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+        console.log('[ServiceWorker] Pre-caching offline page');
+        return cache.addAll(files);
+    })
+);
 // Install for service worker
 self.addEventListener('install', e => {
     self.skipWaiting();

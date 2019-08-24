@@ -121,7 +121,7 @@ function checkResult(){
             });
         }, 500);
     }
-    if(winner === 2){
+    else if(winner === 2){
         playWinner();
         crossPoint++;
         setTimeout(function () {
@@ -132,6 +132,19 @@ function checkResult(){
             });
         }, 500);
     }
+    else {
+        let noneWinCheck = result.indexOf(0);
+        if(noneWinCheck < 0){
+            setTimeout(function () {
+                swal ( "Opps! It's a Draw" ,  "" ,  "warning" ).then(function () {
+                    $('.lineCutter').attr('class', 'lineCutter');
+                    $('.cross_board_box').html('');
+                    winner = 0;
+                });
+            }, 500);
+        }
+    }
+
 
 
 }
